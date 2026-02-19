@@ -1,0 +1,31 @@
+### Home
+GET http://127.0.0.1:5000/
+
+### Top Films
+GET http://127.0.0.1:5000/films/top
+
+### Search Films
+GET http://127.0.0.1:5000/films/search?q=action
+
+### Rent a Film
+POST http://127.0.0.1:5000/rentals
+Content-Type: application/json
+
+{
+  "customer_id": 1,
+  "film_id": 1
+}
+
+### Customers Page 1
+GET http://127.0.0.1:5000/customers?page=1&limit=10
+
+### Customers Page 2
+GET http://127.0.0.1:5000/customers?page=2&limit=10
+
+### Return a Rental
+POST http://127.0.0.1:5000/rentals/return
+Content-Type: application/json
+
+{
+  "rental_id": 1023
+}

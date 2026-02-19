@@ -1,0 +1,40 @@
+.landing-container {
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #bd07f4, #d1d351);
+  color: white;
+}
+
+.landing-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.landing-section {
+  margin-bottom: 50px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.08);
+  padding: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  backdrop-filter: blur(6px);
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  background: rgba(255,255,255,0.18);
+}
+
+.actor-card {
+  border-left: 5px solid #fdfdfb;
+}

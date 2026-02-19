@@ -1,0 +1,56 @@
+/* ===== PAGE BACKGROUND ===== */
+.customers-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #bd07f4, #d1d351);
+  color: rgb(250, 249, 249);
+}
+
+/* ===== TITLE ===== */
+.customers-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* ===== TABLE CONTAINER ===== */
+.table-container {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+/* ===== TABLE ===== */
+.customers-table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 1000px;
+  background: rgba(164, 10, 215, 0.08);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* HEADERS */
+.customers-table th {
+  background: rgba(113, 5, 146, 0.4);
+  padding: 14px;
+  text-align: left;
+}
+
+/* CELLS */
+.customers-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* ROW HOVER EFFECT */
+.customers-table tbody tr {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.customers-table tbody tr:hover {
+  background: rgba(236, 214, 17, 0.25);
+  transform: scale(1.01);
+}

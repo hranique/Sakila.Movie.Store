@@ -1,0 +1,34 @@
+/* ===== NAVBAR CONTAINER ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 40px;
+
+  background: linear-gradient(90deg, #740ba9, #f082e5);
+  color: white;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* ===== LOGO / TITLE ===== */
+.navbar-logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* ===== LINKS ===== */
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: 0.25s;
+}
+
+/* HOVER EFFECT */
+.navbar-links a:hover {
+  color: #ffe066;
+  transform: translateY(-1px);
+}
